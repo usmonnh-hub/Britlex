@@ -217,6 +217,9 @@
   .mt-\[95px\] {
     margin-top: 95px;
   }
+  .mt-\[100px\] {
+    margin-top: 100px;
+  }
   .mt-\[105px\] {
     margin-top: 105px;
   }
@@ -229,6 +232,9 @@
   .mb-\[4\] {
     margin-bottom: 4;
   }
+  .mb-\[15px\] {
+    margin-bottom: 15px;
+  }
   .mb-\[20px\] {
     margin-bottom: 20px;
   }
@@ -240,6 +246,9 @@
   }
   .mb-\[50px\] {
     margin-bottom: 50px;
+  }
+  .mb-\[60px\] {
+    margin-bottom: 60px;
   }
   .ml-\[15px\] {
     margin-left: 15px;
@@ -265,6 +274,9 @@
   .w-\[50\%\] {
     width: 50%;
   }
+  .w-\[50px\] {
+    width: 50px;
+  }
   .w-\[80\%\] {
     width: 80%;
   }
@@ -273,6 +285,12 @@
   }
   .w-\[95\%\] {
     width: 95%;
+  }
+  .w-\[150px\] {
+    width: 150px;
+  }
+  .w-\[170px\] {
+    width: 170px;
   }
   .w-\[300px\] {
     width: 300px;
@@ -301,6 +319,9 @@
   .justify-between {
     justify-content: space-between;
   }
+  .rounded-\[6px\] {
+    border-radius: 6px;
+  }
   .rounded-\[7px\] {
     border-radius: 7px;
   }
@@ -313,6 +334,9 @@
   }
   .bg-\[\#263238\] {
     background-color: #263238;
+  }
+  .bg-\[\#EEEEEE\] {
+    background-color: #EEEEEE;
   }
   .bg-\[\#F5F5F5\] {
     background-color: #F5F5F5;
@@ -334,6 +358,12 @@
   }
   .px-\[30px\] {
     padding-inline: 30px;
+  }
+  .py-\[5px\] {
+    padding-block: 5px;
+  }
+  .py-\[7px\] {
+    padding-block: 7px;
   }
   .py-\[10px\] {
     padding-block: 10px;
@@ -377,6 +407,9 @@
   }
   .text-\[grey\] {
     color: grey;
+  }
+  .text-\[hrey\] {
+    color: hrey;
   }
   .underline {
     text-decoration-line: underline;
@@ -685,6 +718,11 @@
       width: 200px;
     }
   }
+  .md\:w-\[220px\] {
+    @media (width >= 48rem) {
+      width: 220px;
+    }
+  }
   .md\:w-\[250px\] {
     @media (width >= 48rem) {
       width: 250px;
@@ -788,6 +826,11 @@
   .md\:flex-row-reverse {
     @media (width >= 48rem) {
       flex-direction: row-reverse;
+    }
+  }
+  .md\:items-center {
+    @media (width >= 48rem) {
+      align-items: center;
     }
   }
   .md\:justify-around {
@@ -940,6 +983,11 @@
       width: 300px;
     }
   }
+  .lg\:w-\[350px\] {
+    @media (width >= 64rem) {
+      width: 350px;
+    }
+  }
   .lg\:w-\[400px\] {
     @media (width >= 64rem) {
       width: 400px;
@@ -993,6 +1041,11 @@
   .lg\:max-w-\[1200px\] {
     @media (width >= 64rem) {
       max-width: 1200px;
+    }
+  }
+  .lg\:max-w-\[1300px\] {
+    @media (width >= 64rem) {
+      max-width: 1300px;
     }
   }
   .lg\:max-w-\[1350px\] {
